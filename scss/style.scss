@@ -1,0 +1,83 @@
+$primary-color: #fff;
+$primary-font: "Lato", sans-serif;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../brown-peanuts-209345.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav {
+  margin: 1.75rem 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  list-style-type: none;
+}
+.links a {
+  text-decoration: none;
+  color: $primary-color;
+  text-transform: capitalize;
+  font-family: $primary-font;
+}
+.title a {
+  font-size: 1.2rem;
+  font-family: "Righteous", cursive;
+  text-decoration: none;
+  color: $primary-color;
+}
+.icons a {
+  text-decoration: none;
+  padding: 0.5rem;
+  color: $primary-color;
+}
+section {
+  margin: 13rem auto 0 auto;
+  max-width: 60vw;
+}
+
+.info {
+  width: 350px;
+  margin: auto;
+  .hook {
+    color: $primary-color;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: capitalize;
+  }
+  p {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0.5rem 0 0.25rem 0;
+  }
+  button {
+    padding: 1rem 2rem;
+    font-family: $primary-font;
+    width: 130px;
+    border: none;
+    cursor: pointer;
+  }
+  .sign-up {
+    background-color: brown;
+    color: white;
+    margin-right: 1rem;
+  }
+  .more-info {
+    background-color: lightgray;
+  }
+  button:focus {
+    outline: none;
+  }
+  .buttons {
+    margin: 1rem auto 0 2rem;
+  }
+}
